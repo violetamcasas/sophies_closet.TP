@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famosas | Sophie’s Closet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fuente manuscrita -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Sophie’s Closet</h1>
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="famosas.html" class="active">Famosas</a></li>
+            <li><a href="inscripcion.html">Inscripción</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main id="famosas-page">
+        <section id="hero-famosas">
+        <p>Estas son algunas de las famosas que nos vienen acompañando desde el comienzo. Cada una de ellas eligió prendas especiales para darles una nueva historia, y vos podés ser parte de eso.</p>
+        </section>
+
+    <section id="filtros">
+        <input type="text" id="buscar" placeholder="Buscar por nombre...">
+        <select id="filtro-estilo">
+            <option value="">Filtrar por estilo</option>
+            <option value="Casual">Casual</option>
+            <option value="Elegante">Elegante</option>
+            <option value="Rock">Boho</option>
+            <option value="Urbano">Urbano</option>
+            <option value="Boho">Rock</option>
+        </select>
+
+        <select id="ordenar">
+            <option value="">Ordenar</option>
+            <option value="asc">Más antiguas</option>
+            <option value="desc">Más recientes</option>
+        </select>
+    </section>
+
+    <section id="lista-famosas">
+    </section>
+    </main>
+
+    <footer>
+        <p>Sophie’s Closet</p>
+        <p>
+            Seguinos en Instagram: 
+            <a href="https://www.instagram.com/sophiescloset.ba" target="_blank" class="ig-link">@sophiescloset.ba</a>
+        </p>
+    </footer>
+
+    <script src="js/famosas.js"></script>
+</body>
+</html>

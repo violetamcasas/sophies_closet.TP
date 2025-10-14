@@ -55,44 +55,16 @@ nav a {
 }
 
 #hero h2 {
-    font-size: 6.1rem;
+    font-size: 5rem;
     font-weight: 700;
     letter-spacing: 2px;
-}
-
-#hero span {
-    color: #ffb6c1;
-    font-style: italic;
 }
 
 #hero p {
     font-family: "Cormorant Garamond", serif;
     font-style: italic;
-    font-size: 2.1rem;
-    color: #000000;
-    margin-top: 0;
-}
-
-#about {
-    padding: 100px 15%;
-    background-color: #fff;
-    color: #111;
-}
-
-#about h2 {
-    font-family: "Cormorant Garamond", serif;
-    font-style: italic;
     font-size: 2rem;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    text-align: left;
-}
-
-#about p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    text-align: left;
-    max-width: 900px;
+    margin-top: 10px;
 }
 
 #countdown {
@@ -119,7 +91,142 @@ footer {
     text-align: center;
     padding: 25px;
     font-size: 1.2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
     background-color: #000000;
     color: #ffffff
+}
+
+footer a.ig-link {
+    color: #ffb6c1;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+footer a.ig-link:hover {
+    color: #ffffff;
+}
+
+#about {
+    padding: 100px 15%;
+    background-color: #fff;
+    color: #111;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 80px 5%;
+    flex-wrap: wrap; 
+}
+
+.about-text {
+    flex: 1 1 50%;
+    color: #111;
+}
+
+.about-text h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-img {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* --- FAMOSAS --- */
+#hero-famosas {
+    background-color: #f8dfe5; 
+    text-align: center;
+    padding: 100px 10%;
+}
+
+#hero-famosas p {
+    font-family: "Courier New", monospace;
+    font-size: 1.5rem;
+    color: #333;
+    max-width: 1500px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Filtros */
+#filtros {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 900px;
+    }
+
+#filtros input,
+#filtros select {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Lista de famosas */
+#lista-famosas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 10%;
+}
+
+.famosa-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.famosa-info {
+    flex: 1;
+}
+
+.famosa-info h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.famosa-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.famosa-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
 }
