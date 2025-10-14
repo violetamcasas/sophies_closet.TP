@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+#hero {
+    position: relative;
+    height: 100vh;
+    background: url('../img/blumarine.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000
+}
+
+#hero h2 {
+    font-size: 6.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#hero span {
+    color: #ffb6c1;
+    font-style: italic;
+}
+
+#hero p {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 2.1rem;
+    color: #000000;
+    margin-top: 0;
+}
+
+#about {
+    padding: 100px 15%;
+    background-color: #fff;
+    color: #111;
+}
+
+#about h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    max-width: 900px;
+}
+
+#countdown {
+    padding: 100px 20%;
+    text-align: center;
+    background-color: #a8ab9d;
+    color: #fff;
+}
+
+#countdown h2 {
+    font-size: 2rem;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #ffb6c1;
+}
+
+#contador {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 1.2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #000000;
+    color: #ffffff
+}
