@@ -233,3 +233,77 @@ footer a.ig-link:hover {
     min-height: 100vh;
     padding-bottom: 80px;
 }
+
+#inscripcion-body {
+  background-color: #f8dfe5; /* fondo rosa bebé */
+}
+
+#formulario, #lista {
+    max-width: 900px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#formulario h2, #lista h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    background-color: #a8ab9d;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #ff88a1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.editar, button.eliminar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.editar {
+    background-color: #a3c9a8;
+    color: #fff;
+}
+
+button.eliminar {
+    background-color: #ff7b7b;
+    color: #fff;
+}
