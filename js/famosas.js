@@ -1,17 +1,16 @@
 const famosas = [
-    { nombre: "Pampita", estilo: "Elegante", fecha: "2022-12-06", descripcion: "Modelo, conductora y referente del mundo fashion en Argentina. Con estilo sofisticado y looks de pasarela, suele ser embajadora de marcas de lujo.", foto: "img/about.png" },
-    { nombre: "Delfina Ferro", estilo: "Casual", fecha: "2023-09-5", descripcion: "Influencer argentina de bienestar y lifestyle, que integra moda cómoda con un mensaje de salud y autenticidad.", foto: "img/rosa.jpg" },
-    { nombre: "Lolita La Torre", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Yanina La Torre", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Clara Sarkany", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Barbie Simons", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Chofa", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Stephanie Denmer", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Angie Landaburu", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Sofia Gonet", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Candelaria Tinelli", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-    { nombre: "Guillermina Valdes", estilo: "elegante", fecha: "2024-03-10", descripcion: "María aporta su toque de glamour con prendas de diseñador.", foto: "img/about.png" },
-  // 👉 agregá acá las demás 10 famosas con este mismo formato
+    { nombre: "Pampita", estilo: "Elegante", fecha: "2022-12-06", descripcion: "Modelo, conductora y referente de la moda en Argentina. Con estilo sofisticado y looks de pasarela, embajadora de varias marcas de lujo.", foto: "img/pampita.jpg" },
+    { nombre: "Delfina Ferro", estilo: "Casual", fecha: "2023-09-5", descripcion: "Influencer de bienestar y lifestyle, que integra la moda con un mensaje de salud y autenticidad.", foto: "img/delfi.png" },
+    { nombre: "Lolita La Torre", estilo: "Urbano", fecha: "2021-11-21", descripcion: "Ícono de la moda de la nueva generación, con su estilo auténtico y cool.", foto: "img/lola.png" },
+    { nombre: "Yanina La Torre", estilo: "Causal", fecha: "2024-03-17", descripcion: "Figura del mundo del espectáculo, con sus icónicos looks pulidos.", foto: "img/yani.png" },
+    { nombre: "Clara Sarkany", estilo: "Boho", fecha: "2021-08-29", descripcion: "Con su apellido emblemático, se caracteriza por sus outfits modernos y arriesgados.", foto: "img/clara.png" },
+    { nombre: "Barbie Simons", estilo: "Casual", fecha: "2025-01-14", descripcion: "Creadora de contenido que combina moda trendy con un tono relajado y juvenil.", foto: "img/barbie.png" },
+    { nombre: "Chofa", estilo: "Urbano", fecha: "2024-07-30", descripcion: "Con mas de 1 millón de seguidores en redes, deslumbra con sus prendas originales y atrevidas.", foto: "img/chofa.png" },
+    { nombre: "Stephanie Denmer", estilo: "Casual", fecha: "2022-05-08", descripcion: "Pionera influencer de Argentina, con su estilo romántico y casual.", foto: "img/steph.png" },
+    { nombre: "Angie Landaburu", estilo: "Rock", fecha: "2023-12-02", descripcion: "Empresaria e influencer, combina lo glamuroso con toques audaces y sofisticados.", foto: "img/angie.png" },
+    { nombre: "Sofia Gonet", estilo: "Elegante", fecha: "2022-10-27", descripcion: "Influencer de moda, viajes y lifestyle, usa prendas cómodas pero con detalles elegantes, mezclando tendencia con practicidad.", foto: "img/sofi.png" },
+    { nombre: "Candelaria Tinelli", estilo: "Rock", fecha: "2021-04-11", descripcion: "Con fuerte impronta personal y arriesgada: mezcla cuero, estampas, elementos rocker y piezas llamativas.", foto: "img/cande.png" },
+    { nombre: "Guillermina Valdes", estilo: "Elegante", fecha: "2019-07-06", descripcion: "Exmodelo y diseñadora, con una fuerte imprenta lujosa y sofisticada", foto: "img/guille.png" },
 ];
 
 function mostrarFamosas(lista) {

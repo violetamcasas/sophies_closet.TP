@@ -82,8 +82,8 @@ nav a {
     color: #ffb6c1;
 }
 
-#contador {
-    font-size: 2rem;
+#countdown p {
+    font-size: 1.5rem;
     letter-spacing: 1px;
 }
 
@@ -152,7 +152,6 @@ footer a.ig-link:hover {
     object-fit: cover;
 }
 
-/* --- FAMOSAS --- */
 #hero-famosas {
     background-color: #f8dfe5; 
     text-align: center;
@@ -168,7 +167,6 @@ footer a.ig-link:hover {
     line-height: 1.8;
 }
 
-/* Filtros */
 #filtros {
     display: flex;
     justify-content: center;
@@ -187,7 +185,6 @@ footer a.ig-link:hover {
     font-family: "Poppins", sans-serif;
 }
 
-/* Lista de famosas */
 #lista-famosas {
     display: flex;
     flex-direction: column;
@@ -229,4 +226,10 @@ footer a.ig-link:hover {
     height: 200px;
     border-radius: 10px;
     object-fit: cover;
+}
+
+#famosas-page {
+    background-color: #f8dfe5; 
+    min-height: 100vh;
+    padding-bottom: 80px;
 }
