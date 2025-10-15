@@ -2,7 +2,7 @@ let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
 
 const form = document.getElementById("reviewForm");
 const contenedor = document.getElementById("contenedorReviews");
-const ordenarBtn = document.getElementById("ordenarBtn");
+const ordenarSelect = document.getElementById("ordenarSelect");
 
 form.addEventListener("submit", e => {
     e.preventDefault();
@@ -41,8 +41,6 @@ function eliminarReview(i) {
         mostrarReviews();
     }
 }
-
-const ordenarSelect = document.getElementById("ordenarSelect");
 
 ordenarSelect.addEventListener("change", () => {
     const valor = ordenarSelect.value;

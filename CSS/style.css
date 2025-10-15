@@ -67,49 +67,8 @@ nav a {
     margin-top: 10px;
 }
 
-#countdown {
-    padding: 100px 20%;
-    text-align: center;
-    background-color: #a8ab9d;
-    color: #fff;
-}
-
-#countdown h2 {
-    font-size: 2rem;
-    font-family: "Cormorant Garamond", serif;
-    font-style: italic;
-    margin-bottom: 20px;
-    color: #ffb6c1;
-}
-
-#countdown p {
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-}
-
-footer {
-    text-align: center;
-    padding: 25px;
-    font-size: 1.2rem;
-    background-color: #000000;
-    color: #ffffff
-}
-
-footer a.ig-link {
-    color: #ffb6c1;
-    text-decoration: underline;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-footer a.ig-link:hover {
-    color: #ffffff;
-}
-
 #about {
     padding: 100px 15%;
-    background-color: #fff;
-    color: #111;
 }
 
 .about-container {
@@ -123,7 +82,6 @@ footer a.ig-link:hover {
 
 .about-text {
     flex: 1 1 50%;
-    color: #111;
 }
 
 .about-text h2 {
@@ -149,13 +107,51 @@ footer a.ig-link:hover {
     width: 100%;
     max-width: 450px;
     border-radius: 10px;
-    object-fit: cover;
+}
+
+#countdown {
+    padding: 100px 20%;
+    text-align: center;
+    background-color: #a8ab9d;
+    color: #fff;
+}
+
+#countdown h2 {
+    font-size: 2rem;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #ffb6c1;
+}
+
+#countdown p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 1.2rem;
+    background-color: #000;
+    color: #fff
+}
+
+footer a.ig-link {
+    color: #ffb6c1;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+footer a.ig-link:hover {
+    color: #ffffff;
 }
 
 #hero-famosas {
     background-color: #f8dfe5; 
     text-align: center;
-    padding: 100px 10%;
+    padding: 120px 10% 80px;
 }
 
 #hero-famosas p {
@@ -178,9 +174,9 @@ footer a.ig-link:hover {
 
 #filtros input,
 #filtros select {
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 20px;
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
 }
@@ -199,11 +195,16 @@ footer a.ig-link:hover {
     justify-content: space-between;
     gap: 40px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
     max-width: 1000px;
     width: 100%;
+}
+
+.famosa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .famosa-info {
@@ -211,8 +212,9 @@ footer a.ig-link:hover {
 }
 
 .famosa-info h3 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #333;
+    margin-bottom: 10px;
 }
 
 .famosa-info p {
@@ -224,7 +226,7 @@ footer a.ig-link:hover {
 .famosa-img img {
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -234,18 +236,17 @@ footer a.ig-link:hover {
     padding-bottom: 80px;
 }
 
-
 #inscripcion-body {
-  background-color: #f8dfe5; /* fondo rosa bebé */
+    background-color: #f8dfe5; 
 }
 
 #formulario, #lista {
     max-width: 900px;
-    margin: 80px auto;
+    margin: 100px auto;
     background-color: #fff;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
 #formulario h2, #lista h2 {
@@ -263,18 +264,19 @@ form {
 form input, form select {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 form button {
     background-color: #a8ab9d;
-    border: none;
     color: #fff;
+    border: none;
     padding: 12px;
-    font-weight: bold;
-    border-radius: 6px;
+    font-weight: 500;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1.1rem;
 }
 
 form button:hover {
@@ -285,6 +287,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
+    font-size: 0.95rem;
 }
 
 th, td {
@@ -293,9 +296,9 @@ th, td {
 }
 
 button.editar, button.eliminar {
-    padding: 5px 10px;
+    padding: 6px 12px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -317,7 +320,7 @@ button.eliminar {
     background: url('../img/review.png') center/cover no-repeat;
     text-align: center;
     color: #fff;
-    padding: 100px 10%;
+    padding: 120px 10%;
     position: relative;
 }
 
@@ -327,11 +330,11 @@ button.eliminar {
 
 #form-review {
     max-width: 700px;
-    margin: 60px auto;
+    margin: 80px auto;
     background-color: #fff;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
 #form-review form {
@@ -343,7 +346,7 @@ button.eliminar {
 #form-review input, #form-review select, #form-review textarea {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 #form-review button {
@@ -360,6 +363,11 @@ button.eliminar {
     background-color: #465b4cb1;
 }
 
+#lista-reviews {
+    max-width: 900px;
+    margin: 80px auto;
+}
+
 .reviews-header {
     display: flex;
     justify-content: space-between;
@@ -369,22 +377,16 @@ button.eliminar {
 
 .reviews-header h2 {
     margin: 0;
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 2rem;
     color: #333;
-}
-
-#lista-reviews {
-    max-width: 900px;
-    margin: 60px auto;
 }
 
 .review-card {
     background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
 .review-card h3 {
@@ -396,7 +398,7 @@ button.eliminar {
 }
 
 .review-card .estrellas {
-    color: gold;
+    color: #ffd000;
     font-size: 1.3rem;
 }
 
@@ -409,3 +411,27 @@ button.eliminar-review {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    #countdown {
+        padding: 50px 10%;
+    }
+}

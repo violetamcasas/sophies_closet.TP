@@ -1,8 +1,8 @@
 const famosas = [
     { nombre: "Pampita", estilo: "Elegante", fecha: "2022-12-06", descripcion: "Modelo, conductora y referente de la moda en Argentina. Con estilo sofisticado y looks de pasarela, embajadora de varias marcas de lujo.", foto: "img/pampita.jpg" },
-    { nombre: "Delfina Ferro", estilo: "Casual", fecha: "2023-09-5", descripcion: "Influencer de bienestar y lifestyle, que integra la moda con un mensaje de salud y autenticidad.", foto: "img/delfi.png" },
+    { nombre: "Delfina Ferro", estilo: "Casual", fecha: "2023-09-05", descripcion: "Influencer de bienestar y lifestyle, que integra la moda con un mensaje de salud y autenticidad.", foto: "img/delfi.png" },
     { nombre: "Lolita La Torre", estilo: "Urbano", fecha: "2021-11-21", descripcion: "Ícono de la moda de la nueva generación, con su estilo auténtico y cool.", foto: "img/lola.png" },
-    { nombre: "Yanina La Torre", estilo: "Causal", fecha: "2024-03-17", descripcion: "Figura del mundo del espectáculo, con sus icónicos looks pulidos.", foto: "img/yani.png" },
+    { nombre: "Yanina La Torre", estilo: "Casual", fecha: "2024-03-17", descripcion: "Figura del mundo del espectáculo, con sus icónicos looks pulidos.", foto: "img/yani.png" },
     { nombre: "Clara Sarkany", estilo: "Boho", fecha: "2021-08-29", descripcion: "Con su apellido emblemático, se caracteriza por sus outfits modernos y arriesgados.", foto: "img/clara.png" },
     { nombre: "Barbie Simons", estilo: "Casual", fecha: "2025-01-14", descripcion: "Creadora de contenido que combina moda trendy con un tono relajado y juvenil.", foto: "img/barbie.png" },
     { nombre: "Chofa", estilo: "Urbano", fecha: "2024-07-30", descripcion: "Con mas de 1 millón de seguidores en redes, deslumbra con sus prendas originales y atrevidas.", foto: "img/chofa.png" },
