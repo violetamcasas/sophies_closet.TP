@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | Sophie’s Closet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="reviews-body">
+    <header>
+        <h1 class="logo">Sophie’s Closet</h1>
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="famosas.html">Famosas</a></li>
+            <li><a href="inscripcion.html">Inscripción</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main id="reviews-page">
+        <section id="hero-reviews">
+            <div class="overlay">
+                <h2>Dejá tu review</h2>
+            </div>
+        </section>
+
+
+        <section id="form-review">
+        <form id="reviewForm">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label>Puntuación:</label>
+            <select id="puntuacion" required>
+            <option value="">Seleccionar...</option>
+            <option value="5">⭐⭐⭐⭐⭐ (5)</option>
+            <option value="4">⭐⭐⭐⭐ (4)</option>
+            <option value="3">⭐⭐⭐ (3)</option>
+            <option value="2">⭐⭐ (2)</option>
+            <option value="1">⭐ (1)</option>
+            </select>
+
+            <label>Comentario:</label>
+            <textarea id="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar review</button>
+        </form>
+        </section>
+
+        <section id="lista-reviews">
+        <div class="reviews-header">
+            <h2>Reseñas de nuestros usuarios</h2>
+            <select id="ordenarSelect">
+                <option value="">Ordenar</option>
+                <option value="asc">Ascendente</option>
+                <option value="desc">Descendente</option>
+            </select>
+
+        </div>
+        <div id="contenedorReviews"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Sophie’s Closet</p>
+        <p>
+            Seguinos en Instagram: 
+            <a href="https://www.instagram.com/sophiescloset.ba" target="_blank" class="ig-link">@sophiescloset.ba</a>
+        </p>
+    </footer>
+
+    <script src="js/reviews.js"></script>
+</body>
+</html>

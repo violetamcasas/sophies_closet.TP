@@ -234,6 +234,7 @@ footer a.ig-link:hover {
     padding-bottom: 80px;
 }
 
+
 #inscripcion-body {
   background-color: #f8dfe5; /* fondo rosa bebé */
 }
@@ -277,7 +278,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #ff88a1;
+    background-color: #465b4cb1;
 }
 
 table {
@@ -307,3 +308,104 @@ button.eliminar {
     background-color: #ff7b7b;
     color: #fff;
 }
+
+#reviews-body {
+    background-color: #f8dfe5; 
+}
+
+#hero-reviews {
+    background: url('../img/review.png') center/cover no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 100px 10%;
+    position: relative;
+}
+
+#hero-reviews h2 {
+    font-size: 3rem;
+}
+
+#form-review {
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#form-review form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#form-review input, #form-review select, #form-review textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#form-review button {
+    background-color: #a8ab9d;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#form-review button:hover {
+    background-color: #465b4cb1;
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.reviews-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+#lista-reviews {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.review-card h3 {
+    margin-bottom: 5px;
+}
+
+.review-card p {
+    margin: 5px 0;
+}
+
+.review-card .estrellas {
+    color: gold;
+    font-size: 1.3rem;
+}
+
+button.eliminar-review {
+    background-color: #ff7b7b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
