@@ -414,7 +414,7 @@ button.eliminar-review {
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        padding: 15px;
+        padding: 10px 15px;
         text-align: center;
     }
 
@@ -423,15 +423,99 @@ button.eliminar-review {
         gap: 10px;
     }
 
+    #hero {
+        height: 80vh;
+        background-position: center;
+        padding: 0 5%;
+    }
+
     #hero h2 {
         font-size: 2.5rem;
     }
 
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    #about {
+        padding: 60px 10%;
+    }
+
     .about-container {
         flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img img {
+        max-width: 300px;
     }
 
     #countdown {
-        padding: 50px 10%;
+        padding: 60px 10%;
+    }
+
+    #countdown p {
+        font-size: 1.2rem;
+    }
+
+    .famosa-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .famosa-img img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #hero-famosas p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    #formulario,
+    #lista {
+        margin: 60px 20px;
+        padding: 25px;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+
+    #hero-reviews {
+        padding: 80px 8%;
+    }
+
+    #hero-reviews h2 {
+        font-size: 2rem;
+    }
+
+    #form-review {
+        margin: 60px 20px;
+        padding: 25px;
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .reviews-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 20px 10px;
     }
 }
