@@ -8,20 +8,20 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #fff;
     color: #111;
+    scroll-padding-top: 80px;
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 40px;
+    padding: 0px 40px;
     background-color: rgba(0, 0, 0, 0.65);
-    width: 100%;
-    z-index: 10;
     backdrop-filter: blur(6px);
-    position: sticky;
-    top: 0;
-
 }
 
 header .logo {
